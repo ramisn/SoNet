@@ -10,6 +10,8 @@ SoNet::Application.routes.draw do
 
   get  '/chatroom' => 'chats#room', :as => :chat
 
+  post '/new_message' => 'chats#new_message', :as => :new_message
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -59,7 +61,7 @@ SoNet::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
+  root :to => 'sessions#new'
 
   # See how all your routes lay out with "rake routes"
 

@@ -11,6 +11,8 @@ gem 'faye'
 
 gem 'pg'
 
+gem 'private_pub', :git => 'git://github.com/ryanb/private_pub.git'
+
 
 # Gems used only for assets and not required
 # in production environments by default.

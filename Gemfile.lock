@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/ryanb/private_pub.git
+  revision: 7ad77617b1f48980d6f114bc96018f2964a07bdc
+  specs:
+    private_pub (1.0.3)
+      faye
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -48,6 +55,7 @@ GEM
     em-socksify (0.3.0)
       eventmachine (>= 1.0.0.beta.4)
     erubis (2.7.0)
+    eventmachine (1.0.3)
     eventmachine (1.0.3-x86-mingw32)
     execjs (2.0.1)
     faye (0.8.9)
@@ -121,6 +129,7 @@ GEM
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
     websocket-driver (0.2.3)
+    yajl-ruby (1.1.0)
     yajl-ruby (1.1.0-x86-mingw32)
 
 PLATFORMS
@@ -131,6 +140,7 @@ DEPENDENCIES
   faye
   jquery-rails
   pg
+  private_pub!
   rails (= 3.2.14)
   sass-rails (~> 3.2.3)
   sqlite3
