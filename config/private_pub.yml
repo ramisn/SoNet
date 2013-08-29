@@ -5,6 +5,6 @@ test:
   server: "http://localhost:9292/faye"
   secret_token: "secret"
 production:
-  server: "http://damp-island-3102.herokuapp.com/faye"
+  server: "https://damp-island-3102.herokuapp.com/faye", "https://damp-island-3102.herokuapp.com/faye.js"
   secret_token: "1a05ea3a719916b5e378df43ced42ecb40860057b052748e96b4241291bfe5c5"
   signature_expiration: 3600 # one hour
