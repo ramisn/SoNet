@@ -5,11 +5,18 @@ gem 'rails', '3.2.14'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+
 
 gem 'faye'
 
-gem 'pg'
+group :production do
+  gem 'pg'
+end
+group :development, :test do
+  gem 'sqlite3'
+end
+
+
 
 gem 'private_pub', :git => 'git://github.com/ryanb/private_pub.git'
 
