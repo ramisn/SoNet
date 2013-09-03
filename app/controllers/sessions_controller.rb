@@ -6,5 +6,7 @@ class SessionsController < ApplicationController
   def create
   session[:username] = params[:username]
   render :text => "Welcome #{session[:username]}!"
+
   end
+
 end

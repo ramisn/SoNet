@@ -16,6 +16,8 @@ group :development, :test do
   gem 'sqlite3'
 end
 
+gem "activerecord-postgresql-adapter", "~> 0.0.1"
+
 gem 'thin'
 gem 'foreman'
 
